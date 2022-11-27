@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlockFormattingProblem.Analyzers", "BlockFormattingProblem.Analyzers\BlockFormattingProblem.Analyzers.csproj", "{221C6F29-C7B0-44AD-AAB8-81BA1160370F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlockFormattingProblem.CodeFixes", "BlockFormattingProblem.CodeFixes\BlockFormattingProblem.CodeFixes.csproj", "{E20591BC-4D25-424C-AB2F-AFDB06D652EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlockFormattingProblem.Test.Pass", "BlockFormattingProblem.Test.Pass\BlockFormattingProblem.Test.Pass.csproj", "{B34A3D8E-DCE3-4EF0-AD14-C33947ECBF94}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlockFormattingProblem.Test.Fail", "BlockFormattingProblem.Test.Fail\BlockFormattingProblem.Test.Fail.csproj", "{0F10B408-05AB-4933-BA27-2304EDB13D35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0E96FB43-D0A8-4218-8B6B-3523EEE4E4F3}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{221C6F29-C7B0-44AD-AAB8-81BA1160370F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{221C6F29-C7B0-44AD-AAB8-81BA1160370F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{221C6F29-C7B0-44AD-AAB8-81BA1160370F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{221C6F29-C7B0-44AD-AAB8-81BA1160370F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E20591BC-4D25-424C-AB2F-AFDB06D652EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E20591BC-4D25-424C-AB2F-AFDB06D652EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E20591BC-4D25-424C-AB2F-AFDB06D652EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E20591BC-4D25-424C-AB2F-AFDB06D652EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B34A3D8E-DCE3-4EF0-AD14-C33947ECBF94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B34A3D8E-DCE3-4EF0-AD14-C33947ECBF94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B34A3D8E-DCE3-4EF0-AD14-C33947ECBF94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B34A3D8E-DCE3-4EF0-AD14-C33947ECBF94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F10B408-05AB-4933-BA27-2304EDB13D35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F10B408-05AB-4933-BA27-2304EDB13D35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F10B408-05AB-4933-BA27-2304EDB13D35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F10B408-05AB-4933-BA27-2304EDB13D35}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E976E863-F7E0-443F-9B37-F10D7C9A3298}
+	EndGlobalSection
+EndGlobal
